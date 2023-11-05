@@ -3,6 +3,13 @@ body {
   font-size: 1em;
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 div#circle {
   width: 200px;
   height: 200px;
@@ -11,6 +18,13 @@ div#circle {
   border-radius: 100px;
 }
 
-#blue-btn button {
+div.color-btns {
+  padding: 10px 10px;
+}
+
+button {
+  cursor: pointer;
+}
+#blue-btn {
   background-color: blue;
 }
