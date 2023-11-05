@@ -1,0 +1,16 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+}
+
+div#circle {
+  width: 200px;
+  height: 200px;
+  background: black;
+  border: 5px solid pink;
+  border-radius: 100px;
+}
+
+#blue-btn button {
+  background-color: blue;
+}
