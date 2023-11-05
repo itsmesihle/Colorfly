@@ -14,7 +14,7 @@ div#circle {
   width: 200px;
   height: 200px;
   background: black;
-  border: 5px solid pink;
+  border: 2px solid black;
   border-radius: 100px;
 }
 
@@ -24,7 +24,4 @@ div.color-btns {
 
 button {
   cursor: pointer;
-}
-#blue-btn {
-  background-color: blue;
 }
