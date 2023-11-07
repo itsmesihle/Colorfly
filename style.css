@@ -13,7 +13,7 @@ body {
 div#circle {
   width: 200px;
   height: 200px;
-  background: black;
+  background: wheat;
   border: 2px solid black;
   border-radius: 100px;
 }

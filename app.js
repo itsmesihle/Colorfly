@@ -1,16 +1,16 @@
+function chooseRandomColor() {
+  const COLORS = ["purple", "white", "green", "black"];
+  let colorIndex = 0 + Math.round(Math.random() * (COLORS.length - 1));
+  let randomColor = COLORS[colorIndex];
+  console.log(randomColor);
+}
+
 console.log("script loaded");
+chooseRandomColor();
 
 function paint(color) {
-  /*this function is well labeled because the name and argument tell you exactly what the function is supposed to do...when a button is clicked [see html], paint something a certain color a*/
-  console.log(
-    color
-  ); /* this prints the color of the clicked button onto the console */
-  const circle =
-    document.getElementById(
-      "circle"
-    ); /* it picks out a certain area in the page by tag associated with it, and defines it as circle */
+  console.log(color);
+  const circle = document.getElementById("circle");
   circle.style = `background-color: ${color}`;
-  console.log(
-    circle
-  ); /* LHS = styles the newly defined area of the circle. RHS = uses temporal literal to change area to the color of the button clicked */
+  console.log(circle);
 }
